@@ -133,9 +133,9 @@ Selected works mapped to SHOW for cross-platform consistency. All ratings are co
 | Work | S | H | O | W |
 | :-- | :-: | :-: | :-: | :-: |
 | A Court of Thorns and Roses | 2 | 4 | 3 | 4 |
-| Fourth Wing | 3 | 5 | 2 | 5 |
+| Fourth Wing | 3 | 5 | 2 | 4 |
 | Haunting Adeline | 4 | 4 | 4 | 8 |
-| Captive in the Dark | 4 | 3 | 5 | 7 |
+| Captive in the Dark | 4 | 3 | 5 | 8 |
 | The Notebook | 1 | 5 | 2 | 1 |
 | Redeeming Love | 1 | 5 | 4 | 2 |
 | All Quiet on the Western Front | 0 | 1 | 5 | 3 |

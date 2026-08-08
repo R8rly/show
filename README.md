@@ -6,12 +6,12 @@ SHOW is a four-axis content rating for books, audio, film, and interactive narra
 
 ## Read a rating in ten seconds
 
-> **Fourth Wing** — SHOW **S3 · H5 · O2 · W5**
+> **Fourth Wing** — SHOW **S3 · H5 · O2 · W4**
 >
 > **S3** (Spice — *Explicit*): anatomically clear intimate scenes.
 > **H5** (Heat — *Wildfire*): the relationship is the spine of the story.
 > **O2** (OMG — *Dim*): on-page violence, dark themes with restraint.
-> **W5** (WTF — *Wild*): pushes genre conventions — antihero territory.
+> **W4** (WTF — *Edgy*): mildly transgressive dynamics.
 
 Same scale, opposite corner of the library:
 

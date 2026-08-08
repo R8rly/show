@@ -51,9 +51,9 @@ Inline format: `SHOW S3·H4·O2·W5` · Verified format: `SHOW Verified S3·H4·
 | Work | S | H | O | W |
 | :-- | :-: | :-: | :-: | :-: |
 | The Notebook | 1 | 5 | 2 | 1 |
-| Fourth Wing | 3 | 5 | 2 | 5 |
+| Fourth Wing | 3 | 5 | 2 | 4 |
 | Haunting Adeline | 4 | 4 | 4 | 8 |
-| Captive in the Dark | 4 | 3 | 5 | 7 |
+| Captive in the Dark | 4 | 3 | 5 | 8 |
 | All Quiet on the Western Front | 0 | 1 | 5 | 3 |
 | American Psycho | 3 | 1 | 5 | 10 |
 
