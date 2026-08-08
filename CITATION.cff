@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use or implement the SHOW Standard, please cite it as below."
+title: "The SHOW Standard"
+abstract: "S·H·O·W — Content Classification Standard for Narrative and Creative Works. A four-axis content rating (Spice, Heat, OMG, WTF) for books, audio, film, and interactive narrative. Each axis is fully independent; specific content types are communicated through content tags. Companion to the VEIL Standard (generation authorisation) and the SCRIPTS Standard (experience rating)."
+version: "2.1"
+date-released: "2026-07-08"
+authors:
+  - name: "Modern Media Mastery & LMDC"
+contact:
+  - name: "R8rly.org"
+    email: "info@r8rly.org"
+url: "https://r8rly.com/show"
+repository-code: "https://github.com/R8rly/show"
+license: CC-BY-SA-4.0
+keywords:
+  - content-rating
+  - books
+  - publishing
+  - metadata
+  - open-standard
