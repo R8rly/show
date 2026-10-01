@@ -1,0 +1,307 @@
+{
+  "name": "The SHOW Standard",
+  "version": "2.1",
+  "released": "2026-07",
+  "summary": "Four-axis content classification standard for narrative and creative works. Each axis is fully independent; specific content types are communicated through content tags.",
+  "applies_to": "Any finished work regardless of how it was created — written by hand, collaboratively authored, AI-assisted, or fully generated.",
+  "licence": "CC-BY-SA-4.0",
+  "attribution": "Created by Modern Media Mastery & LMDC · held in trust by r8rly.org · verified on r8rly.com",
+  "specification": "https://github.com/R8rly/show/blob/main/SHOW-Standard-v2.1.md",
+  "display": {
+    "inline": "SHOW S{s}·H{h}·O{o}·W{w}",
+    "verified": "SHOW Verified S{s}·H{h}·O{o}·W{w}",
+    "example": "SHOW S3·H4·O2·W5"
+  },
+  "axes": [
+    {
+      "key": "S",
+      "name": "Spice",
+      "min": 0,
+      "max": 6,
+      "measures": "Physical explicitness — on-page or on-screen intimacy and detail",
+      "levels": [
+        {
+          "level": 0,
+          "label": "Untouched",
+          "description": "Kissing only. Door fully closed."
+        },
+        {
+          "level": 1,
+          "label": "Suggestive",
+          "description": "Fade-to-black, implied intimacy."
+        },
+        {
+          "level": 2,
+          "label": "Open-Door",
+          "description": "On-page intimacy with discretion. Sensation over anatomy."
+        },
+        {
+          "level": 3,
+          "label": "Explicit",
+          "description": "Anatomically clear, multiple scenes."
+        },
+        {
+          "level": 4,
+          "label": "Carnal",
+          "description": "High-frequency explicit scenes. Intimacy is load-bearing."
+        },
+        {
+          "level": 5,
+          "label": "Hardcore",
+          "description": "Kink, BDSM, power exchange at standard intensity."
+        },
+        {
+          "level": 6,
+          "label": "Saturated",
+          "description": "Explicit intimacy is the dominant content."
+        }
+      ]
+    },
+    {
+      "key": "H",
+      "name": "Heat",
+      "min": 0,
+      "max": 5,
+      "measures": "Emotional temperature — longing, romantic intensity, intimacy of soul",
+      "levels": [
+        {
+          "level": 0,
+          "label": "Cool",
+          "description": "Romance incidental or absent."
+        },
+        {
+          "level": 1,
+          "label": "Warm",
+          "description": "Affection, light flirtation."
+        },
+        {
+          "level": 2,
+          "label": "Glowing",
+          "description": "Attraction acknowledged. Lingering looks, first kisses."
+        },
+        {
+          "level": 3,
+          "label": "Burning",
+          "description": "Slow-burn intensity. Yearning."
+        },
+        {
+          "level": 4,
+          "label": "Blazing",
+          "description": "Vulnerable confessions, soul-bared scenes."
+        },
+        {
+          "level": 5,
+          "label": "Wildfire",
+          "description": "The relationship is the spine of the story."
+        }
+      ]
+    },
+    {
+      "key": "O",
+      "name": "OMG",
+      "min": 0,
+      "max": 5,
+      "measures": "Darkness of tone — heaviness, peril, grief, violence, psychological weight",
+      "levels": [
+        {
+          "level": 0,
+          "label": "Light",
+          "description": "Sweet, cozy, comedy, family."
+        },
+        {
+          "level": 1,
+          "label": "Shaded",
+          "description": "Mild angst, mild peril."
+        },
+        {
+          "level": 2,
+          "label": "Dim",
+          "description": "On-page violence, dark themes with restraint."
+        },
+        {
+          "level": 3,
+          "label": "Dark",
+          "description": "Captivity, stalker, trauma, MC/mafia, war."
+        },
+        {
+          "level": 4,
+          "label": "Black",
+          "description": "Transgressive, dub-con, brutality."
+        },
+        {
+          "level": 5,
+          "label": "Abyssal",
+          "description": "Extreme — content-warning gated."
+        }
+      ]
+    },
+    {
+      "key": "W",
+      "name": "WTF",
+      "min": 0,
+      "max": 10,
+      "measures": "Transgression — taboo dynamics, wildness of content choices",
+      "bands": [
+        {
+          "range": [
+            0,
+            2
+          ],
+          "label": "Vanilla",
+          "description": "Conventional, no taboo."
+        },
+        {
+          "range": [
+            3,
+            4
+          ],
+          "label": "Edgy",
+          "description": "Mild transgression, age gap."
+        },
+        {
+          "range": [
+            5,
+            6
+          ],
+          "label": "Wild",
+          "description": "Step-relationships, captivity-coded, antihero."
+        },
+        {
+          "range": [
+            7,
+            8
+          ],
+          "label": "Unhinged",
+          "description": "Strong taboo, dub-con romantically framed."
+        },
+        {
+          "range": [
+            9,
+            10
+          ],
+          "label": "Off the Rails",
+          "description": "Non-con as central trope, extreme taboos."
+        }
+      ]
+    }
+  ],
+  "independence": "Each axis measures a fully independent dimension of content. No axis modifies the meaning of any other.",
+  "content_tags": {
+    "note": "Tags are applied per work, not per axis. Tag vocabulary is maintained by the R8rly platform and open for community contribution.",
+    "examples": [
+      "on-page grief",
+      "captivity dynamics",
+      "non-consensual elements",
+      "step-romance",
+      "on-page violence",
+      "suicidal ideation",
+      "addiction",
+      "forced proximity",
+      "morally grey protagonist",
+      "dark humour",
+      "religious themes",
+      "revenge arc",
+      "trauma recovery"
+    ]
+  },
+  "verified_explicit": "Platform certification (R8rly Tier A), not an axis level. Not part of the open CC BY-SA standard.",
+  "calibration": [
+    {
+      "work": "A Court of Thorns and Roses",
+      "S": 2,
+      "H": 4,
+      "O": 3,
+      "W": 4
+    },
+    {
+      "work": "Fourth Wing",
+      "S": 3,
+      "H": 5,
+      "O": 2,
+      "W": 4
+    },
+    {
+      "work": "Haunting Adeline",
+      "S": 4,
+      "H": 4,
+      "O": 4,
+      "W": 8
+    },
+    {
+      "work": "Captive in the Dark",
+      "S": 4,
+      "H": 3,
+      "O": 5,
+      "W": 8
+    },
+    {
+      "work": "The Notebook",
+      "S": 1,
+      "H": 5,
+      "O": 2,
+      "W": 1
+    },
+    {
+      "work": "Redeeming Love",
+      "S": 1,
+      "H": 5,
+      "O": 4,
+      "W": 2
+    },
+    {
+      "work": "All Quiet on the Western Front",
+      "S": 0,
+      "H": 1,
+      "O": 5,
+      "W": 3
+    },
+    {
+      "work": "American Psycho",
+      "S": 3,
+      "H": 1,
+      "O": 5,
+      "W": 10
+    },
+    {
+      "work": "The Road",
+      "S": 0,
+      "H": 2,
+      "O": 5,
+      "W": 4
+    },
+    {
+      "work": "Normal People",
+      "S": 3,
+      "H": 5,
+      "O": 3,
+      "W": 2
+    },
+    {
+      "work": "Twilight",
+      "S": 1,
+      "H": 4,
+      "O": 2,
+      "W": 2
+    },
+    {
+      "work": "Fifty Shades of Grey",
+      "S": 4,
+      "H": 4,
+      "O": 2,
+      "W": 5
+    }
+  ],
+  "companions": [
+    {
+      "name": "VEIL",
+      "function": "Generation authorisation",
+      "repo": "https://github.com/R8rly/veil"
+    },
+    {
+      "name": "SCRIPTS",
+      "function": "Experience rating",
+      "repo": "https://github.com/R8rly/scripts"
+    }
+  ],
+  "protected_marks": "The R8rly platform mark, R8rly Compass mark, and \"R8rly Verified\" designation remain protected and require platform certification."
+}
