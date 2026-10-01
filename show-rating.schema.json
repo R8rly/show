@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/R8rly/show/blob/main/show-rating.schema.json",
+  "title": "SHOW rating",
+  "description": "A single SHOW Standard v2.1 rating for one work. CC BY-SA 4.0 · Modern Media Mastery & LMDC · held in trust by r8rly.org.",
+  "type": "object",
+  "required": [
+    "standard",
+    "version",
+    "S",
+    "H",
+    "O",
+    "W"
+  ],
+  "properties": {
+    "standard": {
+      "const": "SHOW"
+    },
+    "version": {
+      "type": "string",
+      "examples": [
+        "2.1"
+      ]
+    },
+    "work": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "creator": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string",
+          "examples": [
+            "book",
+            "audiobook",
+            "film",
+            "series",
+            "game",
+            "comic",
+            "podcast"
+          ]
+        },
+        "identifier": {
+          "type": "string",
+          "description": "ISBN, ASIN or other identifier"
+        }
+      }
+    },
+    "S": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 6,
+      "description": "Spice — physical explicitness"
+    },
+    "H": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "Heat — emotional temperature"
+    },
+    "O": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5,
+      "description": "OMG — darkness of tone"
+    },
+    "W": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10,
+      "description": "WTF — transgression"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Content tags, applied per work"
+    },
+    "display": {
+      "type": "string",
+      "pattern": "^SHOW (Verified )?S[0-6]·H[0-5]·O[0-5]·W([0-9]|10)$",
+      "examples": [
+        "SHOW S3·H4·O2·W5"
+      ]
+    },
+    "rated_by": {
+      "type": "string",
+      "enum": [
+        "author",
+        "publisher",
+        "community"
+      ]
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "True only for R8rly Verified ratings"
+    }
+  },
+  "additionalProperties": true
+}
