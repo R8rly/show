@@ -50,7 +50,7 @@ Implement SHOW under CC BY-SA 4.0 — attribution required, no fee, no permissio
 | :-: | :-- | :-- |
 | **SHOW** | Content classification of finished work | you are here |
 | **[VEIL](https://github.com/R8rly/veil)** | Generation authorisation for AI-assisted sessions | shares the S·H·O·W axes |
-| **SCRIPTS** | Experience rating | coming to this org |
+[R8rly/scripts](https://github.com/R8rly/scripts)
 
 ## Versioning
 
